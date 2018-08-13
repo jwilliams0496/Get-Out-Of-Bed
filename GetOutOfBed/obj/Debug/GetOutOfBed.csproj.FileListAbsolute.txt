@@ -1,0 +1,11 @@
+C:\Users\James\source\repos\GetOutOfBed\GetOutOfBed\bin\Debug\GetOutOfBed.exe.config
+C:\Users\James\source\repos\GetOutOfBed\GetOutOfBed\bin\Debug\GetOutOfBed.exe
+C:\Users\James\source\repos\GetOutOfBed\GetOutOfBed\bin\Debug\GetOutOfBed.pdb
+C:\Users\James\source\repos\GetOutOfBed\GetOutOfBed\obj\Debug\GetOutOfBed.csprojAssemblyReference.cache
+C:\Users\James\source\repos\GetOutOfBed\GetOutOfBed\obj\Debug\GetOutOfBed.Properties.Resources.resources
+C:\Users\James\source\repos\GetOutOfBed\GetOutOfBed\obj\Debug\GetOutOfBed.csproj.GenerateResource.cache
+C:\Users\James\source\repos\GetOutOfBed\GetOutOfBed\obj\Debug\GetOutOfBed.csproj.CoreCompileInputs.cache
+C:\Users\James\source\repos\GetOutOfBed\GetOutOfBed\obj\Debug\GetOutOfBed.exe
+C:\Users\James\source\repos\GetOutOfBed\GetOutOfBed\obj\Debug\GetOutOfBed.pdb
+C:\Users\James\source\repos\GetOutOfBed\GetOutOfBed\obj\Debug\GetOutOfBed.Form1.resources
+C:\Users\James\source\repos\GetOutOfBed\GetOutOfBed\obj\Debug\GetOutOfBed.Form2.resources
