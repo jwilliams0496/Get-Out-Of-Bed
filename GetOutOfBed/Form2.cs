@@ -22,7 +22,6 @@ namespace GetOutOfBed
 
         private void addAlarm_Click(object sender, EventArgs e)
         {
-
             bool am = true;
 
             if (this.PM.Checked)
@@ -30,7 +29,14 @@ namespace GetOutOfBed
                 am = false;
             }
 
-            new Alarm((int) this.hour.Value, (int) this.minute.Value, am);
+            parent.createAlarm(new Alarm((int)this.hour.Value, (int)this.minute.Value, am));
+
+            this.Close();
+        }
+
+        private void cancel_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

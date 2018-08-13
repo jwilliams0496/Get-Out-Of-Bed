@@ -24,5 +24,32 @@ namespace GetOutOfBed
             this.min = m;
             this.am = a;
         }
+
+        /// <summary>
+        /// Returns the time of the alarm as a formatted String
+        /// </summary>
+        /// <returns>Formated string of alarm's time</returns>
+        public String getTime()
+        {
+            String time = "";
+
+            time += this.hour.ToString();
+            time += ":";
+            if (this.min < 10)
+            {
+                time += 0;
+            }
+            time += min;
+            if (this.am)
+            {
+                time += " AM";
+            }
+            else
+            {
+                time += " PM";
+            }
+
+            return time;
+        }
     }
 }

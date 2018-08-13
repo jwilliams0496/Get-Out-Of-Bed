@@ -27,6 +27,7 @@ namespace GetOutOfBed
         #region Private Variables
         private int num1 = 0;
         private int num2 = 0;
+        List<Alarm> alarms = new List<Alarm>();
         #endregion
 
         #region Enter and Del
@@ -139,12 +140,13 @@ namespace GetOutOfBed
         /// </summary>
         public void createAlarm(Alarm a)
         {
-
+            this.alarms.Add(a);
+            this.alarmsChecklist.Items.Add(a.getTime());
         }
 
         private void removeAlarm_Click(object sender, EventArgs e)
         {
-
+            
         }
     }
 }

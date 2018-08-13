@@ -270,6 +270,7 @@
             // 
             // alarmsChecklist
             // 
+            this.alarmsChecklist.CheckOnClick = true;
             this.alarmsChecklist.FormattingEnabled = true;
             this.alarmsChecklist.Location = new System.Drawing.Point(13, 225);
             this.alarmsChecklist.Name = "alarmsChecklist";
