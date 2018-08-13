@@ -24,8 +24,10 @@ namespace GetOutOfBed
         }
         #endregion
 
+        #region Private Variables
         private int num1 = 0;
         private int num2 = 0;
+        #endregion
 
         #region Enter and Del
         private void buttonEnter_MouseClick(object sender, MouseEventArgs e)
@@ -123,10 +125,21 @@ namespace GetOutOfBed
 
         }
 
+        /// <summary>
+        /// Called when add alarm button is clicked, creates new form which asks user for a time
+        /// </summary>
         private void addAlarm_Click(object sender, EventArgs e)
         {
             Form2 f = new Form2(this);
             f.Show();
+        }
+
+        /// <summary>
+        /// Called from create alarm form. Allows time that the user supplied to be used in this form
+        /// </summary>
+        public void createAlarm(Alarm a)
+        {
+
         }
 
         private void removeAlarm_Click(object sender, EventArgs e)

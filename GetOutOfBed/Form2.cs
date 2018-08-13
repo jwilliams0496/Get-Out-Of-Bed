@@ -20,5 +20,17 @@ namespace GetOutOfBed
             this.parent = f;
         }
 
+        private void addAlarm_Click(object sender, EventArgs e)
+        {
+
+            bool am = true;
+
+            if (this.PM.Checked)
+            {
+                am = false;
+            }
+
+            new Alarm((int) this.hour.Value, (int) this.minute.Value, am);
+        }
     }
 }

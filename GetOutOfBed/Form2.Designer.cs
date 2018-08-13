@@ -31,8 +31,8 @@
             this.askUser = new System.Windows.Forms.Label();
             this.hour = new System.Windows.Forms.NumericUpDown();
             this.ampmBox = new System.Windows.Forms.GroupBox();
-            this.AM = new System.Windows.Forms.RadioButton();
             this.PM = new System.Windows.Forms.RadioButton();
+            this.AM = new System.Windows.Forms.RadioButton();
             this.hourBox = new System.Windows.Forms.GroupBox();
             this.minuteBox = new System.Windows.Forms.GroupBox();
             this.minute = new System.Windows.Forms.NumericUpDown();
@@ -87,17 +87,6 @@
             this.ampmBox.TabStop = false;
             this.ampmBox.Text = "AM or PM?";
             // 
-            // AM
-            // 
-            this.AM.AutoSize = true;
-            this.AM.Location = new System.Drawing.Point(6, 19);
-            this.AM.Name = "AM";
-            this.AM.Size = new System.Drawing.Size(41, 17);
-            this.AM.TabIndex = 0;
-            this.AM.TabStop = true;
-            this.AM.Text = "AM";
-            this.AM.UseVisualStyleBackColor = true;
-            // 
             // PM
             // 
             this.PM.AutoSize = true;
@@ -109,6 +98,17 @@
             this.PM.Text = "PM";
             this.PM.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.PM.UseVisualStyleBackColor = true;
+            // 
+            // AM
+            // 
+            this.AM.AutoSize = true;
+            this.AM.Location = new System.Drawing.Point(6, 19);
+            this.AM.Name = "AM";
+            this.AM.Size = new System.Drawing.Size(41, 17);
+            this.AM.TabIndex = 0;
+            this.AM.TabStop = true;
+            this.AM.Text = "AM";
+            this.AM.UseVisualStyleBackColor = true;
             // 
             // hourBox
             // 
@@ -150,6 +150,7 @@
             this.addAlarm.TabIndex = 5;
             this.addAlarm.Text = "Add Alarm";
             this.addAlarm.UseVisualStyleBackColor = true;
+            this.addAlarm.Click += new System.EventHandler(this.addAlarm_Click);
             // 
             // cancel
             // 
