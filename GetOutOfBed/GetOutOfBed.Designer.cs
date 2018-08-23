@@ -275,13 +275,14 @@
             this.alarmsChecklist.Location = new System.Drawing.Point(13, 225);
             this.alarmsChecklist.Name = "alarmsChecklist";
             this.alarmsChecklist.Size = new System.Drawing.Size(499, 289);
+            this.alarmsChecklist.Sorted = true;
             this.alarmsChecklist.TabIndex = 6;
             // 
             // addAlarm
             // 
             this.addAlarm.Location = new System.Drawing.Point(12, 192);
             this.addAlarm.Name = "addAlarm";
-            this.addAlarm.Size = new System.Drawing.Size(88, 23);
+            this.addAlarm.Size = new System.Drawing.Size(101, 23);
             this.addAlarm.TabIndex = 7;
             this.addAlarm.Text = "Add Alarm";
             this.addAlarm.UseVisualStyleBackColor = true;
@@ -289,11 +290,11 @@
             // 
             // removeAlarm
             // 
-            this.removeAlarm.Location = new System.Drawing.Point(106, 192);
+            this.removeAlarm.Location = new System.Drawing.Point(119, 192);
             this.removeAlarm.Name = "removeAlarm";
-            this.removeAlarm.Size = new System.Drawing.Size(89, 23);
+            this.removeAlarm.Size = new System.Drawing.Size(98, 23);
             this.removeAlarm.TabIndex = 8;
-            this.removeAlarm.Text = "Remove Alarm";
+            this.removeAlarm.Text = "Remove Alarm(s)";
             this.removeAlarm.UseVisualStyleBackColor = true;
             this.removeAlarm.Click += new System.EventHandler(this.removeAlarm_Click);
             // 
